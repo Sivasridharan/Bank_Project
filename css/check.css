@@ -1,0 +1,44 @@
+.check{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 90px  20px;
+    box-shadow: 2px 3px 3px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.box:hover{
+    transform: translateY(8px);
+    transition: all 0.3s ease;
+}
+.box h2{
+    text-align: center;
+    
+}
+.box label {
+    font-weight: 600;
+    color: #2d3e50;
+    font-size: 18px;
+}
+
+.box input {
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.box input:focus {
+    border-color: #1abc9c;
+    outline: none;
+    box-shadow: 0 0 6px rgba(26, 188, 156, 0.4);
+}

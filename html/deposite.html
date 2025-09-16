@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposite</title>
+    <link rel="stylesheet" href="../css/front.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/depodite.css">
+
+</head>
+
+<body>
+    <nav>
+        <div id="bankname">Shiva International Bank</div>
+        <div id="link">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="check.html">
+                <li>Check Balance</li>
+            </a>
+            <a href="withdraw.html">
+                <li>Withdraw</li>
+            </a>
+            <a href="deposite.html">
+                <li>Deposite</li>
+            </a>
+        </div>
+    </nav>
+    <div class="box">
+        <div class="deposite">
+
+            <div class="box1" id="depo">
+                <h2>Deposite</h2>
+                <label for="amount">Amount:</label>
+                <input type="text" id="amount" placeholder="Enter Your Amount">
+                <span id="error_msg">*please enter the valid amount</span>
+                <button onclick="deposite()">Deposite</button>
+            </div>
+            <div class="box2" id="password_box">
+                <h2>Deposite</h2>
+                <label for="pass">passcode:</label>
+                <input type="text" id="pass" placeholder="Enter your password">
+                <span id="pass_check">*Your password is wrong</span>
+                <div class="box4">
+                    <button onclick="backdeposite()">Back</button>
+                    <button onclick="check()">Check</button>
+                </div>
+            </div>
+            <div class="box3">
+                <span id="amount_add">Your Amount Added Successfully...!</span>
+                <h2 id="total_amount"></h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/check.js"></script>
+<script src="../js/deposite.js"></script>
+
+</html>

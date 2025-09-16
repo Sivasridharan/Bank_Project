@@ -1,0 +1,36 @@
+/* Navbar */
+nav {
+    background: #2d3e50;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#bankname {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#link {
+    display: flex;
+    gap: 20px;
+}
+
+#link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+#link a:hover {
+    color: #1abc9c;
+}
+
+#link li {
+    list-style: none;
+}
